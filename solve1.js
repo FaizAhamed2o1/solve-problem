@@ -41,3 +41,15 @@ const removeFalsy = (obj) => {
 
 const newPerson = removeFalsy(person1);
 console.log(newPerson);
+
+// Output:
+// {
+//   name: 'Faiz',
+//   city: 'Dhaka',
+//   address: {
+//     zipCode: 0,
+//     country: 'Bangladesh',
+//     region: { division: 'Dhaka Division' }
+//   },
+//   contact: { email: 'faiz@example.com' }
+// }
